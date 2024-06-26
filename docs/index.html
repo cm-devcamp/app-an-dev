@@ -2,6 +2,15 @@
 <html lang="ja">
 
 <head>
+      <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XQB3FPP59C"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'G-XQB3FPP59C');
+    </script>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Devcamp Products</title>
@@ -82,6 +91,52 @@
           <iframe width="560" height="315" src="https://www.youtube.com/embed/ApcPfd0IK2U" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
       </div>
+    </div>
+    <div class="w-full max-w-md">
+      <a name="contact"></a>
+      <form action="#" method="post">
+        <div class="py-12">
+          <h2 class="text-2xl font-bold">お問い合わせ</h2>
+          <div class="mt-8 max-w-md">
+            <div class="grid grid-cols-1 gap-6">
+              <label class="block">
+                <span class="text-gray-700">ご氏名</span>
+                <input
+                  type="text"
+                  class="mt-1 block w-full rounded-md bg-gray-100 border-transparent focus:border-gray-500 focus:bg-white focus:ring-0"
+                  placeholder=""
+                />
+              </label>
+              <label class="block">
+                <span class="text-gray-700">Eメールアドレス</span>
+                <input
+                  type="email"
+                  class="mt-1 block w-full rounded-md bg-gray-100 border-transparent focus:border-gray-500 focus:bg-white focus:ring-0"
+                  placeholder="yokota.satoshi@classmethod.jp"
+                />
+              </label>
+              <label class="block">
+                <span class="text-gray-700">内容</span>
+                <textarea
+                  class="mt-1 block w-full rounded-md bg-gray-100 border-transparent focus:border-gray-500 focus:bg-white focus:ring-0"
+                  rows="3"
+                ></textarea>
+              </label>
+              <div class="block">
+                <div class="mt-2">
+                  <div>
+                    <label class="inline-flex items-center">
+                      <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+                        送信
+                      </button>
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>        
+        </div>        
+      </form>
     </div>
     <div class="w-full bg-slate-700 dark:bg-slate-900">
       <div class="mt-8 mb-32 m-auto text-center max-w-5xl text-left text-white">
